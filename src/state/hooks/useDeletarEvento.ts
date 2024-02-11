@@ -1,5 +1,5 @@
 import { useSetRecoilState } from "recoil";
-import { IEvento } from "../../../interfaces/IEvento";
+import { IEvento } from "../../interfaces/IEvento";
 import { listaDeEventosState } from "../atom";
 
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import style from './Filtro.module.scss';
 import { useSetRecoilState } from 'recoil';
 import { IFiltroDeEventos } from '../../interfaces/IFiltroDeEventos';
-import { filtroDeEventos } from '../state/atom';
+import { filtroDeEventos } from '../../state/atom';
 
 const Filtro: React.FC = () => {
   
