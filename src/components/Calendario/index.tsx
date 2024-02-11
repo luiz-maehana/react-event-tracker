@@ -46,7 +46,7 @@ const Calendario: React.FC = () => {
       }
       eventoAtualizado.inicio = new Date(kalendEventoAtualizado.startAt)
       eventoAtualizado.fim = new Date(kalendEventoAtualizado.endAt)
-      atualizarEvento(evento)
+      atualizarEvento(eventoAtualizado)
     }
   }
 
